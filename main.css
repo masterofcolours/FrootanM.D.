@@ -58,7 +58,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px !important;
+    padding: 10px 0px !important;
     border-bottom: 1px solid var(--border-color);
     flex-wrap: nowrap;
     background-color: var(--bg-surface);
@@ -133,6 +133,11 @@ a:hover{
 
   .mobile-nav{
     display: flex !important;
+    
+  }
+
+  .mobile-nav a {
+    font-size: 16px !important;
   }
 
   
