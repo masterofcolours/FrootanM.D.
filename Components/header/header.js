@@ -1,5 +1,5 @@
 "use strict";
-
+const cssPath = new URL('./header-style.css', import.meta.url).href;
 class Header extends HTMLElement {
     constructor(){
         super()
@@ -11,7 +11,7 @@ class Header extends HTMLElement {
         this.shadowRoot.innerHTML =
 
             `   
-                <link rel="stylesheet" href="./components/header/header-style.css">
+                <link rel="stylesheet" href="${cssPath}">
 
                 <div class="header-box">
 
