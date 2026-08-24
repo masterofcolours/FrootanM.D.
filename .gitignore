@@ -1,0 +1,23 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules (in case you use build tools or packages later)
+node_modules/
+dist/
+build/
